@@ -1,4 +1,4 @@
-package cl.liberty.entity;
+package cl.liberty.ws.validadorservice.entity;
 
 import java.io.Serializable;
 
@@ -7,25 +7,25 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name = "INTERFAZ")
+//@Entity
+//@Table(name = "INTERFAZ")
 public class Interfaz implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-	@Id
-	@Column(name = "INTERFAZ")
+//	@Id
+//	@Column(name = "INTERFAZ")
 	private String interfaz;
 
-	@Column(name = "JOB")
+//	@Column(name = "JOB")
 	private String job;
 
-	@Column(name = "USUARIO")
+//	@Column(name = "USUARIO")
 	private String usuario;
 
-	@Column(name = "CLAVE")
+//	@Column(name = "CLAVE")
 	private String clave;
 
-	@Column(name = "ESTADO")
+//	@Column(name = "ESTADO")
 	private Integer estado;
 
 	/**
